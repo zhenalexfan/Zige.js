@@ -35,7 +35,7 @@ In typography, spacing adjustments are needed between characters, which is also 
 2. You're done if you would like to apply Zige to your whole webpage! If you hope it to be on some specific parent elements only, add `class="zige"` to these parent elements. Applying it only on the CJK-language elements could improve the performance. Below is an example.
 
 ``` html
-<div class="zige"> <!-- Zige is applied to all the child elements in this div -->
+<div class="zige"> <!-- Zige is applied recursively to all the child elements in this div -->
     <p>ウィキペディア日本語版は<a>2001年</a>5月頃に発足したものの⋯⋯</p>
 </div>
 ```
