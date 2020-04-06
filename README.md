@@ -1,10 +1,10 @@
 <h1>Zige 字格</h1>
 
 <p>
-<a href="">
+<a href="https://cdn.jsdelivr.net/gh/zhenalexfan/zige.js/release/zige.min.js">
     <img alt="JSDelivr" src="https://img.shields.io/badge/jsdelivr-yes-blue">
 </a>
-<a href="">
+<a href="LICENSE">
     <img alt="Liscence MIT" src="https://img.shields.io/github/license/zhenalexfan/zige.js">
 </a>
 </p>
@@ -64,4 +64,4 @@ This solution was inspired by answers under [this Zhihu question](https://www.zh
 
 While I don't believe this is the ultimate solution to the kerning problem in typesetting characters from multi-writing systems since it should be solved by fonts and operating systems, it could be a better soluton on web before the best things happen. 
 
-If you think rules can be improved for more different characters or have any issue, welcome to submit a pull request, create an issue or [email me](mailto:zhenalexfan@gmail.com)! 
+If you think the matching rules can be improved for more different characters or have any issue, welcome to submit a pull request, create an issue or [email me](mailto:zhenalexfan@gmail.com)! 
