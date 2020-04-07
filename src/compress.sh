@@ -1,1 +1,1 @@
-uglifyjs --compress --output ../release/zige.min.js -- zige.js
+uglifyjs --output ../release/zige.min.js -- zige.js

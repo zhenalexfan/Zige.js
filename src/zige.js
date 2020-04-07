@@ -133,6 +133,9 @@ function findAlphabetSpans(textNode, previousLeafNode, nextLeafNode) {
             // set left right margin
             var leftIsCJKScript = false;
             var rightIsCJKScript = false;
+            // TODO: if this node is the first or last node in its parent
+            // while the parent is <div>, <p>, or <li> etc
+            // (meaning its parent usually breaks lines) then disable it's right or left margin 
             if (startOffset > 0) {
                 leftIsCJKScript = CharacterType.isCJKScript(textContent[startOffset - 1]);
             }
@@ -157,6 +160,12 @@ function beautifyNode(node, alphabetSpans) {
     var curOffset = 0;
     for (var i = 0; i < alphabetSpans.length; i++) {
         var span = alphabetSpans[i];
+        // when span's leftSpaceEnabled and rightSpaceEnabled are false, 
+        // skip to the next span without increasing the curOffset
+        if (!span.leftSpaceEnabled && !span.rightSpaceEnabled)
+            continue;
+        // push a textNode of the text before the span
+        // and a span node representing the span itself
         if (span.startOffset > curOffset) {
             var rTextNode = document.createTextNode(text.slice(curOffset, span.startOffset));
             replacementSpans.push(rTextNode);
