@@ -13,9 +13,11 @@
 <img alt="Animated logo" src="img/zige.gif">
 </p>
 
+[用简体中文阅读这一工具的更多上下文。](https://alexfan.xyz/2020/04/06/Space-muss-es-sein.html)
+
 ## What is it
 
-In typography, spacing adjustments are needed between characters, which is also called [kerning](https://en.wikipedia.org/wiki/Kerning). However, modern web browsers and operating systems fail to do it properly when [CJK characters (漢字, ひらがな, カタカナ, 한글 자모, etc.)](https://en.wikipedia.org/wiki/CJK_characters) and Latin letters are mixed together in a webpage. If this upsets you too and you agree that ["the space bar is not a design tool"](https://web.archive.org/web/20110319053039/https://hungermtn.org/the-space-bar-is-not-a-design-tool/), Zige enables you to have better spacing between CJK and Latin characters without changing the text content itself (i.e. not by adding any [whitespace characters](https://en.wikipedia.org/wiki/Whitespace_character)!) in your webpage, by just adding one line of code.
+In typography, spacing adjustments are needed between characters, which is also called [kerning](https://en.wikipedia.org/wiki/Kerning). However, modern web browsers and operating systems fail to do it properly when [CJK characters (漢字, ひらがな, カタカナ, etc.)](https://en.wikipedia.org/wiki/CJK_characters) and Latin letters are mixed together in a webpage. If this upsets you too and you agree that ["the space bar is not a design tool"](https://web.archive.org/web/20110319053039/https://hungermtn.org/the-space-bar-is-not-a-design-tool/), Zige enables you to have better spacing between CJK and Latin characters without changing the text content itself (i.e. not by adding any [whitespace characters](https://en.wikipedia.org/wiki/Whitespace_character)!) in your webpage, by just adding one line of code.
 
 <div align="center">
 <img width="46%" src="img/blog-before.png">
