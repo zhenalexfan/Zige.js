@@ -13,7 +13,7 @@
 <img alt="Animated logo" src="img/zige.gif">
 </p>
 
-[用简体中文阅读这一工具的更多上下文。](https://alexfan.xyz/2020/04/06/Space-muss-es-sein.html)
+[在此](https://alexfan.xyz/2020/04/06/Space-muss-es-sein.html)用简体中文阅读更多上下文。
 
 ## What is it
 
